@@ -37,7 +37,7 @@ module.exports = {
             return false;
         } else {
 
-            request.defaults({
+            request = request.defaults({
                 baseUrl: apiURL.concat(_(dexter.environment('wunderground_api_key')).toString().trim())
             });
 
