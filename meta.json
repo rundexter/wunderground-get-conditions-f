@@ -4,23 +4,50 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "display_location",
+            "title":"Location"
+        },
+        {
+            "id": "country_iso3166",
+            "title":"Country"
+        },
+        {
+            "id": "local_time_rfc822",
+            "title":"Time"
+        },
+        {
+            "id": "weather",
+            "title":"Weather"
+        },
+        {
+            "id": "temp_f",
+            "title":"Temperature ( F )"
+        },
+        {
+            "id": "relative_humidity",
+            "title":"Humidity"
+        },
+        {
+            "id": "wind_string",
+            "title":"Wind"
+        },
+        {
+            "id": "forecast_url",
+            "title":"URL"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "country",
+            "title":"Country"
+        },
+        {
+            "id": "city",
+            "title":"City"
         }
-      */
     ],
+    "icon": "dex-wunderground",
     "title": "Weather Underground - Get Current Conditions (F)" /* Required.A display name for the module */
 }
