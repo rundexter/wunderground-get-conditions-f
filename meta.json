@@ -5,6 +5,17 @@
     //Required. Inputs the module expects.
     "inputs": [
         {
+            "id": "country",
+            "title":"Country"
+        },
+        {
+            "id": "city",
+            "title":"City"
+        }
+    ],
+    //Required. Outputs the module emits.
+    "outputs": [
+        {
             "id": "display_location",
             "title":"Location"
         },
@@ -35,17 +46,6 @@
         {
             "id": "forecast_url",
             "title":"URL"
-        }
-    ],
-    //Required. Outputs the module emits.
-    "outputs": [
-        {
-            "id": "country",
-            "title":"Country"
-        },
-        {
-            "id": "city",
-            "title":"City"
         }
     ],
     "icon": "dex-wunderground",
